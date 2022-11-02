@@ -1,0 +1,7 @@
+.element__block-text {
+  width: 241px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  align-self: center;
+}

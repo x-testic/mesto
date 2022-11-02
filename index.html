@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./pages/index.css">
+  <title>Mesto Russia</title>
+</head>
+<!-- body -->
+<body class="page">
+<!-- header -->
+  <header class="header">
+    <img class="logo" src="./images/logo.svg" alt="Логотип проекта">
+  </header>
+<!-- main -->
+  <main class="content">
+<!-- section profile -->
+    <section class="profile">
+      <div class="profile__main">
+        <img class="profile__avatar" src="./images/avatar.svg" alt="аватар">
+        <div class="profile__info">
+          <div class="profile__block">
+            <h1 class="profile__name short-name">Жак-Ив Кусто</h1>
+            <button class="profile__button profile__button_type_edit" type="button" aria-label="редактировать профиль"></button>
+          </div>
+          <p class="profile__hobby short-name">Исследователь океана</p>
+        </div>
+      </div>
+      <button class="profile__button profile__button_type_add" type="button" aria-label="добавление картинок, но потом"></button>
+    </section>
+<!-- section elements -->
+    <section class="elements">
+      <ul class="elements__group">
+        <li class="element">
+          <img class="element__img" src="./images/michael-parulava-L4jrg4c7928-unsplash.png" alt="Москва">
+            <div class="element__block-text">
+              <h2 class="element__text short-name">Москва</h2>
+              <button class="element__button-like" type="button" aria-label="лайк"></button>
+            </div>
+        </li>
+        <li class="element">
+          <img class="element__img" src="./images/sonia-kuniakina-yI3h6N5qvp0-unsplash.png" alt="Питер">
+            <div class="element__block-text">
+              <h2 class="element__text short-name">Санкт-Петербург</h2>
+              <button class="element__button-like" type="button" aria-label="лайк"></button>
+            </div>
+        </li>
+        <li class="element">
+          <img class="element__img" src="./images/Cheliabinsk.png" alt="Челябинск">
+            <div class="element__block-text">
+              <h2 class="element__text short-name">Челябинск</h2>
+              <button class="element__button-like" type="button" aria-label="лайк"></button>
+            </div>
+        </li>
+        <li class="element">
+          <img class="element__img" src="./images/Tiksi.png" alt="Тикси">
+            <div class="element__block-text">
+              <h2 class="element__text short-name">Тикси</h2>
+              <button class="element__button-like" type="button" aria-label="лайк"></button>
+            </div>
+        </li>
+        <li class="element">
+          <img class="element__img" src="./images/kirill-pershin-1556355-unsplash.png" alt="Домбай">
+            <div class="element__block-text">
+              <h2 class="element__text short-name">Домбай</h2>
+              <button class="element__button-like" type="button" aria-label="лайк"></button>
+            </div>
+        </li>
+        <li class="element">
+          <img class="element__img" src="./images/igor-starkov-2dv3Mf0PrrE-unsplash.png" alt="Сочи">
+            <div class="element__block-text">
+              <h2 class="element__text short-name">Сочи</h2>
+              <button class="element__button-like" type="button" aria-label="лайк"></button>
+            </div>
+        </li>
+      </ul>
+    </section>
+  </main>
+<!-- footer -->
+  <footer class="footer">
+    <p class="footer__text">&copy; 2022 Mesto Russia</p>
+  </footer>
+<!-- popup -->
+  <div class="popup">
+    <div class="popup__content">
+      <button class="popup__button-close" type="button" aria-label="закрыть всплывающее окно"></button>
+      <h2 class="popup__title">Редактировать профиль</h2>
+      <form class="popup__form" name="popup-form">
+        <input class="popup__field popup__field_type_name" type="text" required name="popup-field-name">
+        <input class="popup__field popup__field_type_hobby" type="text" required name="popup-field-hobby">
+        <button class="popup__button-save" type="submit" aria-label="сохранить изменения">Сохранить</button>
+      </form>
+    </div>
+  </div>
+<!-- script -->
+  <script src="./script/script.js"></script>
+</body>
+</html>
