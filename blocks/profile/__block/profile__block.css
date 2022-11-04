@@ -1,6 +1,6 @@
 .profile__block {
     width: 336px;
-    height: 39px;
+    min-height: 39px;
     display: flex;
     margin-bottom: 9px;
     justify-content: stretch;
@@ -9,9 +9,9 @@
   @media screen and (max-width: 630px) {
     .profile__block {
       width: 282px;
-      height: 26px;
+      min-height: 26px;
       justify-content: center;
-      margin: 32px auto 0 auto;
+      margin: 25px auto 0 auto;
       padding-left: 14px;
     }
   }

@@ -1,6 +1,6 @@
 .profile__hobby {
     width: 400px;
-    height: 18px;
+    min-height: 18px;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 18px;
